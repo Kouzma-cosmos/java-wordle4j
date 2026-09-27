@@ -110,7 +110,7 @@ public class WordleGame {
         }
 
         int totalWordsInDictionary = dictionary.size();
-        for (int k = 0; k < totalWordsInDictionary; k++) {
+        for (int k = 0; k < 1000; k++) {
             String candidate = dictionary.getRandomWord();
 
             if (usedWords.contains(candidate) || givenHints.contains(candidate)) {
